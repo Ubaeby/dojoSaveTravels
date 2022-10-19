@@ -40,5 +40,8 @@ public class ExpenseService {
 		return expenseRepository.save(e);
 	}
 	
+	public void destoryExpense(Long id) {
+		 expenseRepository.deleteById(id);
+	}
 	
 }
