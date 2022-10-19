@@ -32,6 +32,7 @@
 					<td><c:out value="${i.title}"></c:out></td>
 					<td><c:out value="${i.vendor}"></c:out></td>
 					<td>$<c:out value="${i.amount}"></c:out></td>
+					<td><a href="/expenses/edit/${i.id}">Edit</a></td>
 				</tr>
 			</c:forEach>
 		</tbody>
